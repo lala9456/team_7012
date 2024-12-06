@@ -33,8 +33,8 @@
   pip install -r requirements.txt
 
 ### 2. 模型訓練與權重檔案
-- 由於模型訓練的權重檔案較大，提供下載連結：
-- 有關前處理檔案較大的數據，提供下載連結
+- 由於模型訓練的權重檔案較大，提供下載連結：[Googledrive](https://drive.google.com/drive/folders/10Oxgz7N0iUbgS9COQwB1CwuHbsRITImN?usp=sharing)
+- 有關前處理檔案較大的數據，提供下載連結：[Googledrive](https://drive.google.com/drive/folders/1er89_figAMLEFkaXcKVBW1qLy1tR4ukK?usp=drive_link)
 - 下載後請將權重檔案放置於指定目錄，具體路徑參見程式碼中的相關註解。
 
 ### 3. 模型重現與預測
@@ -45,3 +45,5 @@
 - 在比賽期間訓練時有些模型未設置隨機種子，
 可能導致重新訓練與原比賽結果略有差異。
 如需精確驗證結果，建議使用下載檔案連結的比賽權重檔案。
+- 所有檔案皆在，[Googledrive](https://drive.google.com/drive/folders/1zxUio2HN6ZE6C5R6WliX3PjrSg4B-v6V?usp=sharing)
+  若有遺漏資訊可以透過信箱聯絡作者lala9456@gmail.com
