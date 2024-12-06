@@ -153,10 +153,15 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-*.csv
+
 *.zip
+twopoint_scatter.csv
+train_data_combine
+36_TrainingData
+36_TrainingData_Additional_V2
+repeat*/
+*.csv
 *.pkl
-*.json
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
