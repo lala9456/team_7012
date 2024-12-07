@@ -2,7 +2,14 @@
 這是 **Team7012** 參與「基於區域微氣候資料預測發電量」競賽所提交的專案，提供了主辦單位要求的預測模型及其重現結果的程式碼。以下是具體說明：
 
 ---
-
+## 注意事項
+- 為了方便各位使用者重現，Repo已放入幾個處理好的CSV檔案，因此會下載較久，建議下載整個Repo的ZIP檔案
+- 在比賽期間訓練時有些模型未設置隨機種子，
+可能導致重新訓練與原比賽結果略有差異。
+如需精確驗證結果，建議使用下載檔案連結的比賽權重檔案。
+- 所有檔案皆在，[Googledrive](https://drive.google.com/drive/folders/1zxUio2HN6ZE6C5R6WliX3PjrSg4B-v6V?usp=sharing)
+  若有遺漏資訊可以透過信箱聯絡作者lala9456@gmail.com
+---
 ## 視覺化網站
 提供一個簡單的視覺化網站，用於展示數據分析及模型預測結果，幫助使用者直觀理解模型表現。
 網址
@@ -27,9 +34,11 @@
 
 ## 程式碼使用說明
 ### 1. 環境設置
-- 使用 **Python 3.12** 作為開發環境。
+- 本隊伍使用 **Python 3.12** 以及anaconda作為開發環境。
 - 安裝所需套件，請使用以下命令安裝套件：
   ```bash
+  conda create --name yourenvname python==3.12
+  conda activate yourenvname
   pip install -r requirements.txt
 
 ### 2. 模型訓練與權重檔案
@@ -45,10 +54,3 @@
 - 總共有3種模型訓練模式，分別是同地異時、同時異地、同第同時（有兩種版本，分別是使用氣象站第三方資料以及使用每間隔10分鐘的天氣資料之模式）
 - 若需驗證競賽結果，可直接下載權重檔案，並執行predict_private_hightest.ipynb
 
-### 4.注意事項
-- 為了方便各位使用者重現，Repo已放入幾個處理好的CSV檔案，因此會下載較久，建議下載整個Repo的ZIP檔案
-- 在比賽期間訓練時有些模型未設置隨機種子，
-可能導致重新訓練與原比賽結果略有差異。
-如需精確驗證結果，建議使用下載檔案連結的比賽權重檔案。
-- 所有檔案皆在，[Googledrive](https://drive.google.com/drive/folders/1zxUio2HN6ZE6C5R6WliX3PjrSg4B-v6V?usp=sharing)
-  若有遺漏資訊可以透過信箱聯絡作者lala9456@gmail.com
