@@ -160,7 +160,8 @@ train_data_combine
 36_TrainingData
 36_TrainingData_Additional_V2
 repeat*/
-# *.csv
+LSTM
+*.csv
 *.pkl
 test/
 # PyCharm
