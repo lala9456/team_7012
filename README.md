@@ -49,8 +49,10 @@
   1. 下載所有權種檔案夾裡面的所有內容
   2. 將檔案解壓縮，放到 ./模型訓練程式碼/model_each_location相應名稱的資料夾中
   3. 因為權重檔案較大，下載較久，請務必確認所有權重皆下載完成並且放入正確之路徑
+   ![權重下載示意圖](./img/img5.png)
 - 有關前處理檔案較大的數據，在執行之前請先下載，提供下載連結：[Googledrive](https://drive.google.com/drive/folders/1er89_figAMLEFkaXcKVBW1qLy1tR4ukK?usp=drive_link)
   1. 下載weather_sun_combine.csv（第三方天氣資料經前處理後的總表），將其放入 ./資料前處理以及第三方資料。
+   ![CSV下載示意圖](./img/img6.png)
 
 ### 4. 模型重現與預測
 - 提供分數最高的幾個模型，供使用者進行重現訓練或預測。
